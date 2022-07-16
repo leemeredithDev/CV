@@ -1,101 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Lee's Personal Website</title>
-    </head>
-    <body>
-        <table cellspacing="20">
-            <tr>
-                <td><img src="images/me2.jpg" alt="Image of me standing on a dock"></td>
-                <td><h1>Lee Meredith</h1>
-                    <p><em>Junior Web Developer at <strong><a href="https://www.techniquewebdesign.co.uk/">Technique Web Design</a></strong></em></p>
-                    <p>Reliable, polite and highly motivated, I have worked in retail for over a decade but I am now looking for a new challenge and new opportunities. 
-                        I enjoy meeting new people and working within a team but I am also confident working on my own if required. 
-                        I am a fast learner who is always looking for the chance to expand my knowledge and I am always happy to receive feedback and constructive criticism to further improve myself.
-                    </p>
-                </td>
-            </tr>
-        </table>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lee Meredith</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
 
+    <div class="top-container">
+        <img class="top-cloud" src="images/cloud.png" alt="cloud">
+        <h1>I'm Lee.</h1>
+        <h2>a <span class="pro">pro</span>grammer.</h2>
+        <img class="bottom-cloud" src="images/cloud.png" alt="cloud">
+        <img src="images/mountain.png" alt="mountain">
+    </div>
+
+    <div class="middle-container">
+        <div class="profile">
+          <img class="img-profile" src="images/me2.jpg" alt="">
+          <h2>Hello.</h2>
+          <p class="intro">I am a Junior Web Developer. I currently work for Technique Web.<br>In my personal time I enjoy gaming, am a keen football fan and love swimming.</p>
+        </div>
         <hr>
-        <h3>Education</h3>
-        <ul>
-            <li>AAT Accounting Level 3 Advanced Diploma</li>
-                <ul>
-                    <li><em>Banbury and Bicester College</em></li>
-                </ul>
-            <li>OCR Cambridge Technical IT</li>
-                <ul>
-                    <li><em>Banbury and Bicester College</em></li>
-                </ul>
-            <li>Mathematics C Grade</li>
-                <ul>
-                    <li><em>Banbury and Bicester College</em></li>
-                </ul>
-            <li>English C Grade</li>
-                <ul>
-                    <li><em>Banbury and Bicester College</em></li>
-                </ul>
-        </ul>
-        <h3>Courses</h3>
-        <ul>
-            <li>The Complete 2022 Web Development Bootcamp</li>
-                <ul>
-                    <li><em><a href="https://www.udemy.com/">udemy.com</a></em></li>
-                </ul>
-            <li>Responsive and Real-World Websites with HTML and CSS</li>
-                <ul>
-                    <li><em><a href="https://www.udemy.com/">udemy.com</a></em></li>
-                </ul>
-            <li>Wordpress for Beginners</li>
-                <ul>
-                    <li><em><a href="https://www.udemy.com/">udemy.com</a></em></li>
-                </ul>
-        </ul>
+        <div class="skills">
+          <h2>My Skills.</h2>
+          <div class="skill-row1">
+            <img src="images/html-logo.webp"class="img-skills1">
+            <img src="images/css3-logo.png" class="img-skills1">
+            <h3>HTML5 & CSS3</h3>
+            <p>I started learning to code in my own time using online resources such as Udemy. I am still doing this around my job to refine my current skills while learning even more to improve further.</p>
+          </div>
+          <div class="skill-row2">
+            <img class="img-skills2" src="images/wordpress-logo.png" alt="">
+            <h3>Wordpress</h3>
+            <p>Through a combination of my studying and my time working within the industry I have gained a basic knowledge of Wordpress coding.</p>
+          </div>
+        </div>
         <hr>
-        <h3>Interests</h3>
-        <ol>
-            <li>Video Games</li>
-            <li>Football</li>
-            <li>Swimming</li>
-            <li>Music and Films</li>
-            <li>Comics and Graphic Novels</li>
-        </ol>
-        <hr>
-        <h3>Work Experience</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>Dates</th>
-                    <th>Place of Work</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>2006 - 2022</td>
-                    <td>Midcounties Co-Operative</td>
-                </tr>
-                <tr>
-                    <td>2022 - Current</td>
-                    <td>Technique Web</td>
-                </tr>
-            </tbody>
-        </table>
-        <hr>
-        <h3>Skills</h3>
-        <table cellspacing="10px">
-            <tr>
-                <td>HTML5 ⭐⭐⭐</td>
-                <td>JavaScript ⭐⭐</td>
-            </tr>
-            <tr>
-                <td>CSS3 ⭐⭐⭐</td>
-                <td>jQuery ⭐⭐</td>
-            </tr>
-        </table>
-        <h3><a href="contact.html">Contact Me</a></h3>
-    </body>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>If you want to get to know me.</h3>
+          <p class="contact-message">Feel free to contact me! I would love to have a chat over a nice brew.</p>
+          <a class="btn" href="mailto:leemeredith12@hotmail.com">CONTACT ME</a>
+        </div>
+      </div>
+      
+      
+      <div class="bottom-container">
+        <a class="footer-link" href="#">Facebook</a>
+        <a class="footer-link" href="#">Twitter</a>
+        <a class="footer-link" href="#">LinkedIn</a>
+        <p class="copyright">© 2022 Lee Meredith.</p>
+      </div>
+    
+</body>
 </html>
